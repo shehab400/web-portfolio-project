@@ -1,0 +1,70 @@
+.section3 {
+  height: 100vh;
+}
+.section3text {
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 6em;
+}
+.Section3parent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+.cardtext {
+  margin: 3em;
+  color: aliceblue;
+}
+.Section3child {
+  margin: 3em;
+  background-color: rgb(33, 30, 30, 1);
+  height: 20rem;
+  width: 25rem;
+  border-radius: 2em;
+}
+.stars {
+  position: relative;
+  left: 1em;
+}
+.person {
+  width: 4em;
+  height: 5em;
+  border-radius: 50%;
+  position: relative;
+  left: 2px;
+  bottom: 0%;
+}
+.person2 {
+  position: relative;
+  left: 2px;
+  bottom: 1.15em;
+}
+.Name {
+  color: aliceblue;
+  position: relative;
+  left: 6em;
+  bottom: 4em;
+}
+.name2 {
+  bottom: 5em;
+}
+.Section3child:nth-child(1):hover {
+  transform: scale(1.03) translateX(3rem);
+  transition: all 0.7s ease;
+  background-color: rgb(175, 17, 17);
+  color: aliceblue;
+}
+
+.cardschild:nth-child(2):hover {
+  color: aliceblue;
+  transform: scale(1.03);
+}
+.Section3child:nth-child(3):hover {
+  transform: scale(1.03) translateX(-3rem);
+  transition: all 0.7s ease;
+  background-color: rgb(175, 17, 17);
+  color: aliceblue;
+}

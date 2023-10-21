@@ -1,0 +1,49 @@
+.section4text {
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.header {
+  color: red;
+  font-size: 1em;
+}
+.projectTypes {
+  margin-top: 4em;
+  font-weight: bold;
+}
+.projectparent {
+  display: flex;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-color: aliceblue;
+  border: 2px;
+}
+.grid-container {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: aliceblue;
+  justify-items: center;
+  gap: 3em;
+}
+.grid-text
+{
+  text-align: center;
+}
+.img {
+  overflow: hidden;
+  border-radius: 2em;
+}
+.img img {
+  width: 100%;
+  display: block;
+}
+.projectparent button
+{
+  background-color: red;
+  border-radius: 15%;
+}

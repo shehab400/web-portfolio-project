@@ -1,0 +1,66 @@
+.section2 {
+  height: 100vh;
+}
+.section2Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  gap: 1em;
+  margin: 6em;
+}
+.CardsParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cardschild {
+  height: 20rem;
+  width: 25rem;
+  background-color: rgb(33, 30, 30, 1);
+  margin: 3em;
+  border-radius: 2em;
+  transition: 0.7s;
+  color: aliceblue;
+}
+
+.cardschild:nth-child(2) {
+  background-color: rgb(175, 17, 17);
+  color: black;
+}
+.CardsIcon1 {
+  height: 40%;
+}
+.CardsIcon2 {
+  height: 40%;
+}
+.CardsIcon3 {
+  height: 40%;
+}
+.cardstext {
+  text-align: center;
+}
+.cardschild:nth-child(1):hover {
+  transform: scale(1.03) translateX(3rem);
+  transition: all 0.7s ease;
+  background-color: rgb(175, 17, 17);
+  color: black;
+}
+
+.cardschild:nth-child(2):hover {
+  color: aliceblue;
+  transform: scale(1.03);
+}
+.cardschild:nth-child(3):hover {
+  transform: scale(1.03) translateX(-3rem);
+  transition: all 0.7s ease;
+  background-color: rgb(175, 17, 17);
+  color: black;
+}
+.CardsIcon1
+{
+  position: relative;
+  top: 3em;
+  left: 45%;
+ 
+}
